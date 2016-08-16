@@ -1,12 +1,12 @@
 {
   "name": "ng-by-gsj",
   "version": "1.0.0",
-  "description":"A start project using ng2 by gsj",
+  "description": "A start project using ng2 by gsj",
   "scripts": {
     "build": "webpack --progress",
     "build:prod": "webpack -p --progress",
     "postinstall": "typings install",
-    "serve":"webpack-dev-server --inline --progress"
+    "serve": "webpack-dev-server --inline --progress"
   },
   "dependencies": {
     "@angular/common": "2.0.0-rc.5",
