@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-
 @Component({
-	selector:'star-app',
-	template:'<h1>Ng2 By GSJ</h1>'
+  selector: 'my-app',
+  templateUrl:'src/app/app.component.html',
+  styleUrls: ['src/app/app.component.css'] 
 })
-export class AppComponent {}
+export class AppComponent { }
