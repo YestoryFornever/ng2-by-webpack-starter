@@ -6,13 +6,13 @@ import { HeroDetailComponent } from '../hero-detail/hero-detail.component';
 
 const appRoutes: Routes = [
 	{
-		path: 'detail/:id',
-		component: HeroDetailComponent
-	},
-	{
 		path: '',
 		redirectTo: '/dashboard',
 		pathMatch: 'full'
+	},
+	{
+		path: 'detail/:id',
+		component: HeroDetailComponent
 	},
 	{
 		path: 'dashboard',

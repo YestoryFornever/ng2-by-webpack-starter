@@ -1,16 +1,18 @@
 import { Component,Input,OnInit } from '@angular/core';
 
-import { Hero } from '../app/hero'
+
 import { ActivatedRoute, Params } from '@angular/router';
+import { Hero } from '../app/hero';
 import { HeroService } from '../app/hero.service';
 
 @Component({
-	selector:'my-hero',
+	selector:'my-hero-detail',
 	templateUrl:'src/hero-detail/hero-detail.component.html',
 	styleUrls: ['src/hero-detail/hero-detail.component.css'] 
 })
 export class HeroDetailComponent implements OnInit{ 
-	@Input()hero:Hero;
+	@Input()
+	hero:Hero;
 	constructor(
 		private heroService: HeroService,
 		private route: ActivatedRoute) {
