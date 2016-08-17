@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';//浏览器运行所需要的一
 import { FormsModule }   from '@angular/forms';
 
 import { AppComponent }  from './app/app.component';
-import {HeroDetailComponent} from './hero-detail/hero-detail.component'
+import { HeroDetailComponent } from './hero-detail/hero-detail.component'
 @NgModule({
 	imports:      [
 		BrowserModule,
