@@ -9,16 +9,6 @@ import {Hero} from './hero';
 	styleUrls: ['src/app/app.component.css'],
 	providers: [HeroService] 
 })
-export class AppComponent implements OnInit{ 
+export class AppComponent{ 
 	title = 'Tour of Heroes';
-	selectedHero:Hero;
-	heroes:Hero[];
-	ngOnInit() {
-		this.getHeroes();
-	}
-	constructor(private heroService: HeroService) { }
-	getHeroes() {
-		this.heroService.getHeroes().then(heroes => this.heroes = heroes);
-	}
-	onSelect(hero: Hero) { this.selectedHero = hero; }
 }
