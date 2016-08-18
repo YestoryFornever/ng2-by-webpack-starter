@@ -1,6 +1,6 @@
 .selected {
-   background-color: #CFD8DC !important;
-   color: white;
+	 background-color: #CFD8DC !important;
+	 color: white;
 }
 .heroes {
 	margin: 0 0 2em 0;
@@ -44,4 +44,22 @@
 	height: 1.8em;
 	margin-right: .8em;
 	border-radius: 4px 0 0 4px;
+}
+button {
+	font-family: Arial;
+	background-color: #eee;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	cursor: hand;
+}
+button:hover {
+	background-color: #cfd8dc;
+}
+.error {color:red;}
+button.delete-button{
+	float:right;
+	background-color: gray !important;
+	color:white;
 }
